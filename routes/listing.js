@@ -9,6 +9,7 @@ const {storage} = require("../cloudConfig.js");
 const upload = multer({ storage });
 
 
+
 //create route
 router.get(
 "/new",
